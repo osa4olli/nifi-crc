@@ -5,8 +5,9 @@ RUN wget https://jdbc.postgresql.org/download/postgresql-42.7.1.jar -O /opt/nifi
 RUN chmod -R a+r /opt/nifi/nifi-current/
 RUN chmod -R a+x /opt/nifi/nifi-current/lib/
 RUN chmod -R a+x /opt/nifi/nifi-current/bin/
+RUN chmod -R a+x /opt/nifi/nifi-current/conf/
 
 RUN chmod -R a+r /opt/nifi/nifi-toolkit-current/
 RUN chmod -R a+x /opt/nifi/nifi-toolkit-current/lib/
 RUN chmod -R a+x /opt/nifi/nifi-toolkit-current/bin/
-
+RUN chmod -R a+x /opt/nifi/nifi-toolkit-current/conf/
